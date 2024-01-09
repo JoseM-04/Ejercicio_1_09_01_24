@@ -31,6 +31,7 @@ public class Cine {
             System.out.println("¡Asiento reservado con éxito!");
         } else {
             System.out.println("¡Asiento ocupado!... Elije otro.");
+            System.out.println("----------------------------------------");
         }
     	
     	System.out.println("Actualizacion de los asientos:");
