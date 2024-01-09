@@ -26,8 +26,6 @@ public class Cine {
         System.out.print("Ingrese el número de columna (1-" + columnas + "): ");
         int columna = scanner.nextInt();
         
-        
-
         if (asientos[fila - 1][columna - 1] == '0') {
             asientos[fila - 1][columna - 1] = 'X'; 
             System.out.println("¡Asiento reservado con éxito!");
