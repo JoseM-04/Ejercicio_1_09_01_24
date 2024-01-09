@@ -9,7 +9,7 @@ public class Cine {
 		
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		int [] ascientos;
+		int ascientos [][] = new int [10][10];
 		
 		System.out.println();
 	}
