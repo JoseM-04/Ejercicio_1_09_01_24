@@ -30,7 +30,7 @@ public class Cine {
             asientos[fila - 1][columna - 1] = 'X'; 
             System.out.println("¡Asiento reservado con éxito!");
         } else {
-            System.out.println("¡Asiento ocupado!... Por favor, elija otro.");
+            System.out.println("¡Asiento ocupado!... Elije otro.");
         }
     	
     	System.out.println("Actualizacion de los asientos:");
